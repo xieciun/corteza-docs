@@ -15,7 +15,7 @@ Over-engineering usually reduces clarity and introduces more failure points.
 To exemplify, instead of using a gateway to set a `Boolean` variable to the correct value, write an expression that evaluates the desired value.
 
 .An over-engineered version:
-image:workflow/workflow-style-simple-gateway.png[]
+image:/workflow-style-simple-gateway.png[]
 
 .A simplified version:
 image:workflow/workflow-style-simple-expression.png[]

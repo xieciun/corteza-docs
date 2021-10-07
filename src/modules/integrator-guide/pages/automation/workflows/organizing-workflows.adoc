@@ -1,9 +1,11 @@
 include::ROOT:partial$variables.adoc[]
 
+:imagesdir: ../../../images
+
 = Organizing your workflows
 
 To help you maintain and expand on larger projects, we've prepared a document outlining the xref:automation/workflows/style-guide-best-practices.adoc[style guide and best practices].
-In addition to the document, you can use the *swimlane* image:workflow/swimlane.svg[width=20px] visual element to group steps based on their purpose.
+In addition to the document, you can use the *swimlane* image:workflow/swimlane.png[width=20px] visual element to group steps based on their purpose.
 
 A swimlane image:workflow/swimlane.svg[width=20px] is a purely visual element and does not affect the execution of a workflow.
 In smaller workflows that perform simple, singular operations (such as notifying administrator about a client sign-up or logging changes) swimlanes don't make much sense and may even reduce the clarity.
