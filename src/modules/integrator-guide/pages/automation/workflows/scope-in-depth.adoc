@@ -1,5 +1,7 @@
 include::ROOT:partial$variables.adoc[]
 
+:imagesdir: ../../../images
+
 = Workflow scope in-depth
 
 In short, a scope defines what data the ongoing step can access and manipulate.
@@ -44,7 +46,7 @@ image:workflow/gw_scope_base.png[]
 
 To break this down; the below image shows the stack trace of the entire execution with annotated scopes at the important parts (darkened numbered blocks).
 
-image:workflow/gw_scope.svg[]
+image:workflow/gw_scope.png[]
 
 [NOTE]
 ====

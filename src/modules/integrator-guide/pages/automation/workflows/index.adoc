@@ -1,5 +1,7 @@
 include::ROOT:partial$variables.adoc[]
 
+:imagesdir: ../../../images
+
 = Workflows
 :description: {PRODUCT_NAME} workflow allow you to implement custom business logic without the need for any programming knowledge.
 :keywords: low code, no code, automation, workflow, workflows, {PRODUCT_NAME}
@@ -63,7 +65,7 @@ The workflow editor consists of four main parts; workflow configuration screen, 
 . *Step configurator* is where you configure the workflow steps.
 
 .The workflow editor user interface.
-image::workflow/ui.svg[role="data-zoomable"]
+image::workflow/ui.png[role="data-zoomable"]
 
 === Structuring the workflow
 
@@ -107,7 +109,7 @@ A single workflow can have multiple triggers and multiple termination steps.
 
 When you're happy with your workflow or wish to save your progress, click on the save button on the bottom of the screen, or use the kbd:[ctrl+s] shortcut.
 
-image::workflow/save.svg[role="data-zoomable"]
+image::workflow/save.png[role="data-zoomable"]
 
 === Configuring the workflow
 
@@ -119,7 +121,7 @@ To configure a specific connector, click on it's label or double click on it.
 The configuration is automatically saved to the step.
 The workflow needs to be saved in order for the configuration to take affect.
 
-image::workflow/step-config.svg[role="data-zoomable"]
+image::workflow/step-config.png[role="data-zoomable"]
 
 == Execution control
 
@@ -155,7 +157,7 @@ Constraint your triggers as much as possible to prevent your workflows from exec
 ====
 
 .An example of a workflow with multiple triggers.
-image::workflow/multi-start.svg[role="data-zoomable"]
+image::workflow/multi-start.png[role="data-zoomable"]
 
 | [#step-exec-terminator]#<<step-exec-terminator,Terminators>>#
 |
@@ -169,7 +171,7 @@ Multiple termination steps allow you to explicitly terminate the workflows' exec
 ====
 
 .An example of a workflow with multiple termination steps.
-image::workflow/multi-end.svg[role="data-zoomable"]
+image::workflow/multi-end.png[role="data-zoomable"]
 
 |===
 
@@ -415,7 +417,7 @@ The continue step image:workflow/continue.svg[width=20px] terminates the ongoing
 The continue step should be used to either prematurely terminate the iterator body or when the iterator body is considered as completed.
 
 .An example of a premature and a complete iterator body.
-image::workflow/multi-continue.svg[role="data-zoomable"]
+image::workflow/multi-continue.png[role="data-zoomable"]
 
 | [#step-iterator-control-break]#<<step-iterator-control-break,Break>>#
 |
@@ -424,7 +426,7 @@ The break step should be used to prematurely terminate the entire iterator.
 To examolify; when a system error occurs or when you find the item you are looking for.
 
 .An example of a prematurely terminating the iterator.
-image::workflow/break-example.svg[role="data-zoomable"]
+image::workflow/break-example.png[role="data-zoomable"]
 
 |===
 
@@ -447,7 +449,7 @@ Think of this as a try-catch.
 ====
 
 .An example of an error handler in action.
-image::workflow/try-catch.svg[role="data-zoomable"]
+image::workflow/try-catch.png[role="data-zoomable"]
 The steps in the red zone can be considered as dangerous (can fail).
 If any step in the "dangerous" zone fails, the execution continues along the "Catch" connected steps.
 
@@ -462,7 +464,7 @@ Think of the error step as raising an error or an exception.
 ====
 
 .An example of an error in action.
-image::workflow/throw.svg[role="data-zoomable"]
+image::workflow/throw.png[role="data-zoomable"]
 
 |===
 
