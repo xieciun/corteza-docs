@@ -1,0 +1,62 @@
+include::ROOT:partial$variables.adoc[]
+
+= Workflow execution
+
+The document proposes a rework of the workflow execution engine.
+The core issues identified during usage and further development was a fairly "brittle" design which required (or would require) a fair amount of effort to implement major additions, such as sub-workflows.
+
+.The proposed revision attempts to better define and segregate four main components of the system:
+* <<preproc,*Preprocessor*>> which analyzes and transforms the provided workflow and prepares (an optimized) processable structure.
+* <<provider,*Providers*>> which are a transformed representation of the initial workflow.
+* <<scheduler,*Schedulers*>> which are able to determine executable steps from the given providers and delegate them to workers.
+* <<worker,*Workers*>> which are responsible for receiving and executing work work requests.
+
+.The diagram provides an abstract overview of the idea and how the components should interact.
+image::workflows/idea.png[]
+
+The base idea behind the proposed components is that we achieve a stricter definition of what happens when and where.
+For example, providers will only worry about what should be executed, schedulers will only worry about who executes what, and the workers will only worry about executing something.
+
+.The diagram provides an abstract overview of the architecture for the reworked engine.
+image::workflows/arch.png[]
+
+== Components
+
+[#preproc]
+=== Preprocessor
+
+@todo
+
+[#provider]
+=== Provider
+
+A provider is a piece of code which determines the series of workflow steps that should be executed.
+The provider may use the result of the execution (provided by the scheduler) to appropriately adjust it's state.
+The result may only affect what steps should be executed next; any state manipulation such as variable adjustment should be handled by the scheduler.
+
+[#scheduler]
+=== Scheduler
+
+A scheduler is a piece of code which determines what steps of the given workflow can be executed and handles the processing and state updating based on the result of the execution.
+
+The scheduler may or may not reside on the same system as the request for the execution.
+To examplify; a {PRODUCT_NAME} instance may decide to split it's workload into multiple chunks which may be offloaded to "worker {PRODUCT_NAME} instances" which are meant solely to process such requests.
+
+[#worker]
+=== Workers
+
+A worker is an extremely light-weight piece of code which defines enough logic so it is able to execute the provided payload based on the passed in state.
+
+A worker is represented as a go routine which is either started on system start, or it is spawned on demand by the parent service; such as when the existing workers are overwhelmed and we require additional processing power.
+
+The provided *work request* should define enough contextual information where the step should not need to access external sources (such as the store layer) in order to execute.
+Such a simplification allows us to optimize data access procedures, such as preloading all of the data which will be needed for the execution.
+
+=== Worker pool
+
+A worker pool is a series of workers encapsulated and managed by a higher entity.
+A worker pool is responsible to load-balance its workers as well as to create new workers, and remove old (stale) workers.
+
+.The workflow execution engine should use a common pool of workers to:
+* Allow and simplify the process of managing system resources, such as how many workers can run at the same time and prioritizing execution of important workflows.
+* Remove the need to constantly create/teardown routines.

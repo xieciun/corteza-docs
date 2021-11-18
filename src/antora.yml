@@ -9,5 +9,6 @@ nav:
   - modules/upgrade-guide/nav.adoc
   - modules/developer-guide/nav.adoc
   - modules/devops-guide/nav.adoc
+  - modules/rfc/nav.adoc
   - modules/ROOT/nav.adoc
   # - modules/extensions/nav.adoc
