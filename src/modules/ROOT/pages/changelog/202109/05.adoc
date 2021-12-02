@@ -13,7 +13,7 @@ Denis Arh (https://github.com/darh[GH]),
 
 .[#2021_9_5-added]#<<2021_9_5-added,Added:>>#
 * Role security (forbidden, permitted, forced) on external authentication providers ({SERVER_COMMIT_BASE}91eb88d2[`91eb88d2`]).
-
+* Workflow functions for attachment managemnt ({SERVER_COMMIT_BASE}8a8c7685[`8a8c7685`]).
 //
 //
 
