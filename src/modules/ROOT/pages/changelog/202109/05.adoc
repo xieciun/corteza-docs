@@ -9,7 +9,7 @@ include::ROOT:partial$variables.adoc[]
 //Vivek Patel (https://github.com/vicpatel[GH]),
 //Jože Fortun (https://github.com/fajfa[GH]),
 Denis Arh (https://github.com/darh[GH]),
-//Tomaž Jerman (https://github.com/tjerman[GH]).
+Tomaž Jerman (https://github.com/tjerman[GH]).
 
 .[#2021_9_5-added]#<<2021_9_5-added,Added:>>#
 * Role security (forbidden, permitted, forced) on external authentication providers ({SERVER_COMMIT_BASE}91eb88d2[`91eb88d2`]).
@@ -25,6 +25,12 @@ Denis Arh (https://github.com/darh[GH]),
 
 .[#2021_9_5-changed]#<<2021_9_5-changed,Changed:>>#
 //* Admin role membership management ({WEBAPP_ADMIN_COMMIT_BASE}2df2f48[`2df2f48`]).
+
+//
+//
+
+.[#2021_9_5-removed]#<<2021_9_5-removed,Removed:>>#
+* Removed the unused `COUNTD` metric aggregation function ({WEBAPP_JS_COMMIT_BASE}29e8ab2a[`29e8ab2a`], {LOCALE_COMMIT_BASE}58a0a3b7[`58a0a3b7`], {WEBAPP_COMPOSE_COMMIT_BASE}commit/4633b238[`commit/4633b238`])
 
 //
 //
