@@ -11,6 +11,9 @@
 
 ** xref:corteza-server/index.adoc[]
 *** xref:corteza-server/structure.adoc[]
+*** xref:corteza-server/testing/index.adoc[]
+**** xref:corteza-server/testing/unit.adoc[]
+**** xref:corteza-server/testing/integration.adoc[]
 *** xref:corteza-server/access-control/index.adoc[]
 *** xref:corteza-server/api.adoc[]
 *** xref:corteza-server/auth.adoc[]
@@ -36,6 +39,8 @@
 
 ** xref:corteza-js/index.adoc[]
 *** xref:corteza-js/structure.adoc[]
+*** xref:corteza-js/testing/index.adoc[]
+**** xref:corteza-js/testing/unit.adoc[]
 
 ** xref:corteza-vue/index.adoc[]
 *** xref:corteza-vue/structure.adoc[]

@@ -1,0 +1,26 @@
+include::ROOT:partial$variables.adoc[]
+
+= Unit tests
+
+include::partial$testing/uinit-test-tldr.adoc[]
+
+Unit tests reside inside the package (next to the file) the testee is implemented in.
+To exemplify; to test the `AddTwoNumbers()` inside the `/math/util.go` file, you would define the test cases in the `/math/util.test.go` file.
+
+A *test case* is a complete flow defined by the specific function(s) usually only defined based on the input.
+To exemplify; for a successful integer addition one test case would check if the addition of two numbers is correct and another one to check if overflow/underflow is handled correctly.
+
+[NOTE]
+====
+Unit tests should focus on smaller part such as specific functions.
+They can, however implicitly test supporting functions -- the functions called by the testee.
+====
+
+* Meta stuff
+** how do I define the scope a unit test should cover?
+** what wording should I use for test case names?
+* Testing stuff
+** Generic tests (envoy, workflow execution, ...)
+*** How should the setup procedure look like?
+*** How should a test case look like
+*** What all can I use to assert my tests; the assert package

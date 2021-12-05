@@ -1,0 +1,13 @@
+include::ROOT:partial$variables.adoc[]
+
+= Design Guidelines
+
+include::partial$design-guidelines/intro.adoc[]
+
+== Rest handlers
+
+Rest handlers 
+
+== Service
+
+== pkg

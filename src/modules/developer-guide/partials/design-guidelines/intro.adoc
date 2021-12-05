@@ -1,0 +1,1 @@
+When working on core {PRODUCT_NAME} repositories, you should follow the design guidelines to help assure consistent coding style as well as component and service designs.

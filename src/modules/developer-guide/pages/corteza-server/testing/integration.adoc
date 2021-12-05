@@ -1,0 +1,24 @@
+include::ROOT:partial$variables.adoc[]
+
+= Integration tests
+
+include::partial$testing/integration-test-tldr.adoc[]
+
+Integration tests reside inside the `/tests` directory further broken down by the *component* or by the feature in case of a larger stand alone feature such as workflows and integration gateway.
+
+A *test case* is a complete flow defined by the specific feature usually defined by the input and the state of the system.
+To exemplify; for a successful record creation the test case would define an HTTP request and check for the appropriate response.
+No further flows, such as errors for record value validation should occur in this test case.
+
+* Meta stuff
+** how should I interact with the store; can I mock it somehow?
+** what wording should I use for test case names?
+* Testing stuff
+** API tests
+*** How should the setup procedure look like?
+*** How should a test case look like
+*** What all can I use to assert my tests; the JSON path and assert packages
+** Generic tests (envoy, workflow execution, ...)
+*** How should the setup procedure look like?
+*** How should a test case look like
+*** What all can I use to assert my tests; the assert package

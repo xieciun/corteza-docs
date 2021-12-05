@@ -1,0 +1,1 @@
+*Integration tests* test larger chunks of code usually via the flows defined by a specific feature, such as creating records, rendering templates, and reports.

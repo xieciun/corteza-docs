@@ -1,0 +1,9 @@
+include::ROOT:partial$variables.adoc[]
+
+= Testing
+
+To help assure quality and stability of {PRODUCT_NAME} web applications and other web/node.js applications interacting with {PRODUCT_NAME} the corteza-js utilizes *unit tests*.
+
+include::partial$testing/unit-test-tldr.adoc[]
+
+For details on writing unit tests, refer to the xref:corteza-server/testing/unit.adoc[] section.

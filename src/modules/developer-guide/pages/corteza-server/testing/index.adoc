@@ -1,0 +1,13 @@
+include::ROOT:partial$variables.adoc[]
+
+= Testing
+
+To help assure quality and system stability, {PRODUCT_NAME} server utilizes two types of tests: *unit* and *integration* tests
+
+include::partial$testing/unit-test-tldr.adoc[]
+
+For details on writing unit tests, refer to the xref:corteza-server/testing/unit.adoc[] section.
+
+include::partial$testing/integration-test-tldr.adoc[]
+
+For details on writing integration tests, refer to the xref:corteza-server/testing/integration.adoc[] section.
