@@ -19,7 +19,7 @@ Tomaž Jerman (https://github.com/tjerman[GH]).
 
 .[#2021_9_5-fixed]#<<2021_9_5-fixed,Fixed:>>#
 * Translatable content (modules, names, pages, namespaces) is now sent with current language ({WEBAPP_COMPOSE_COMMIT_BASE}5bd3bd37[`5bd3bd37`]).
-
+* Improve slow performance in some casses with wf-loops by increesing workflow session state flushing from 10 to 1000 ({SERVER_COMMIT_BASE}486a5752[`486a5752`]).
 //
 //
 
