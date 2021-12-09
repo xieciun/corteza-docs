@@ -45,7 +45,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 //
 
 .[#2021_9_5-removed]#<<2021_9_5-removed,Removed:>>#
-* Removed the unused `COUNTD` metric aggregation function ({WEBAPP_JS_COMMIT_BASE}29e8ab2a[`29e8ab2a`], {LOCALE_COMMIT_BASE}58a0a3b7[`58a0a3b7`], {WEBAPP_COMPOSE_COMMIT_BASE}commit/4633b238[`commit/4633b238`])
+* Removed the unused `COUNTD` metric aggregation function ({WEBAPP_JS_COMMIT_BASE}29e8ab2a[`29e8ab2a`], {LOCALE_COMMIT_BASE}58a0a3b7[`58a0a3b7`], {WEBAPP_COMPOSE_COMMIT_BASE}4633b238[`4633b238`])
 
 //
 //
