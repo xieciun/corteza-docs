@@ -24,6 +24,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 {WEBAPP_ADMIN_COMMIT_BASE}d06cd41[`d06cd41`], {WEBAPP_JS_COMMIT_BASE}9bd530a[`9bd530a`]).
 * Added custom processing button ({WEBAPP_VUE_COMMIT_BASE}6ec4157[`6ec4157`]).
 * Translations for reporter webapp ({WEBAPP_REPORTER_COMMIT_BASE}6e26d5a[`6e26d5a`], {LOCALE_COMMIT_BASE}931011c[`931011c`]).
+* Added additional string manipulation functions to reporter expressions ({SERVER_COMMIT_BASE}a45c914e[`a45c914e`]).
+
 //
 //
 
@@ -36,6 +38,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fixed panicking report filter marshaling when invalid ({SERVER_COMMIT_BASE}59ef8da1a[`59ef8da1a`]).
 * Fixed improper handling of automation page blocks which define buttons with no references ({SERVER_COMMIT_BASE}047b647af[`047b647af`]).
 * Prevent text from exiting container in EditorToolbox ({WEBAPP_ADMIN_COMMIT_BASE}147dcd7[`147dcd7`]).
+* Fixed improper date manipulation functions for reporter expressions ({WEBAPP_REPORTER_COMMIT_BASE}46372f55[`46372f55`]).
+
 //
 //
 
