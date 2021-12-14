@@ -1,0 +1,34 @@
+include::ROOT:partial$variables.adoc[]
+
+= `2021.9.6`
+
+*Released on*: TBD
+
+*Contributors*:
+//Katrin Yordanova (https://github.com/katrinDY[GH]),
+//Vivek Patel (https://github.com/vicpatel[GH]),
+//Jože Fortun (https://github.com/fajfa[GH]),
+Denis Arh (https://github.com/darh[GH]),
+//Tomaž Jerman (https://github.com/tjerman[GH]).
+
+.[#2021_9_6-added]#<<2021_9_6-added,Added:>>#
+* Support for additional arguments when invoking Corredor script via API ({SERVER_COMMIT_BASE}91eb88d2[`91eb88d2`]).
+* Support resource translation for select field texts ({SERVER_COMMIT_BASE}c72902a8[`c72902a8`]).
+
+//
+//
+
+.[#2021_9_6-fixed]#<<2021_9_6-fixed,Fixed:>>#
+* Refactored workflow execution and fixed runner/invoker logic ({SERVER_COMMIT_BASE}92224360[`92224360`]).
+
+//
+//
+
+//.[#2021_9_6-changed]#<<2021_9_6-changed,Changed:>>#
+//* placeholder-placeholder-placeholder ({SERVER_COMMIT_BASE}xxxxxxx[`xxxxxxx`]).
+
+//
+//
+
+//.[#2021_9_6-security]#<<2021_9_6-security,Security:>>#
+//* placeholder-placeholder-placeholder ({SERVER_COMMIT_BASE}xxxxxxx[`xxxxxxx`]).
