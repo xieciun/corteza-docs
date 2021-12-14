@@ -22,6 +22,7 @@ Tomaž Jerman (https://github.com/tjerman[GH]).
 * Refactored workflow execution and fixed runner/invoker logic ({SERVER_COMMIT_BASE}92224360[`92224360`]).
 * Fixed improper attachment upload permission checks due to partial request parameters (https://github.com/cortezaproject/corteza-server/pull/309[#309], https://github.com/cortezaproject/corteza-webapp-compose/pull/346[#346]).
 * Fixed improper QL argument transformations based on the used database (https://github.com/cortezaproject/corteza-server/pull/308[#308]).
+* Fix broken docker container healtcheck on Corredor server ({SERVER_CORREDOR_COMMIT_BASE}dce30ba[`dce30ba`]).
 
 //
 //
