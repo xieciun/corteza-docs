@@ -40,6 +40,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Prevent text from exiting container in EditorToolbox ({WEBAPP_ADMIN_COMMIT_BASE}147dcd7[`147dcd7`]).
 * Fixed improper date manipulation functions for reporter expressions ({WEBAPP_REPORTER_COMMIT_BASE}46372f55[`46372f55`]).
 * Fixed persistent run-as workflow issue after trigger removal ({SERVER_COMMIT_BASE}87f08d8b[`87f08d8b`]).
+* Fix access control checks on UI ({WEBAPP_ADMIN_COMMIT_BASE}e902382[`e902382`]).
 //
 //
 
