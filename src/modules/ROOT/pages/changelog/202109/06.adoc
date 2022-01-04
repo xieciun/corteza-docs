@@ -10,10 +10,13 @@ include::ROOT:partial$variables.adoc[]
 //Jože Fortun (https://github.com/fajfa[GH]),
 Denis Arh (https://github.com/darh[GH]),
 Tomaž Jerman (https://github.com/tjerman[GH]).
+Peter Grlica (https://github.com/petergrlica[GH]).
 
 .[#2021_9_6-added]#<<2021_9_6-added,Added:>>#
 * Support for additional arguments when invoking Corredor script via API ({SERVER_COMMIT_BASE}91eb88d2[`91eb88d2`]).
 * Support resource translation for select field texts ({SERVER_COMMIT_BASE}c72902a8[`c72902a8`]).
+* SAML signed requests support ({SERVER_COMMIT_BASE}5e4486c7[`5e4486c7`], {WEBAPP_ADMIN_COMMIT_BASE}7ec02f6e[`7ec02f6e`]).
+* Find and has expr functions ({SERVER_COMMIT_BASE}86deaea9[`86deaea9`]).
 
 //
 //
@@ -23,6 +26,7 @@ Tomaž Jerman (https://github.com/tjerman[GH]).
 * Fixed improper attachment upload permission checks due to partial request parameters (https://github.com/cortezaproject/corteza-server/pull/309[#309], https://github.com/cortezaproject/corteza-webapp-compose/pull/346[#346]).
 * Fixed improper QL argument transformations based on the used database (https://github.com/cortezaproject/corteza-server/pull/308[#308]).
 * Fix broken docker container healtcheck on Corredor server ({SERVER_CORREDOR_COMMIT_BASE}dce30ba[`dce30ba`]).
+* Changed federation locales ({WEBAPP_COMPOSE_COMMIT_BASE}91094e44[`91094e44`]).
 
 //
 //
