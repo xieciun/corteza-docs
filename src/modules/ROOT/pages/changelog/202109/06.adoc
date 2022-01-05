@@ -32,6 +32,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 // couldn't find the link for corteza docs
 * Fixed scrolling in left navigation for corteza-docs ({https://github.com/cortezaproject/corteza-docs/commit/5176de36ae589d5d63618cfe1588a11bec038969).
 * Fixed translations on password reset ({SERVER_COMMIT_BASE}87f08d8[`87f08d8`]).
+* RBAC rules & workflows are now reloaded after namespace import ({SERVER_COMMIT_BASE}ff6cadc0[`ff6cadc0`]).
 
 //
 //
