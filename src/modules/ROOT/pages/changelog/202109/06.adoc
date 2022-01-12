@@ -21,6 +21,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Support for SAML HTTP binding ({SERVER_COMMIT_BASE}717cae5c0b[`717cae5c0b`], {WEBAPP_ADMIN_COMMIT_BASE}5cf0597b40[`5cf0597b40`])
 * Support version in DB_DSN for development mode ({SERVER_COMMIT_BASE}c3516dd[`c3516dd`]).
 * Sort an array expr function ({SERVER_COMMIT_BASE}be6b572[`be6b572`]).
+* Persist column order after save in ColumnPicker ({WEBAPP_COMPOSE_COMMIT_BASE}9659d9f[`9659d9f`], {WEBAPP_JS_COMMIT_BASE}2b7c949[`2b7c949`], {LOCALE_COMMIT_BASE}b53bc6b[`b53bc6b`]).
 //
 //
 
@@ -38,7 +39,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * RBAC rules & workflows are now reloaded after namespace import ({SERVER_COMMIT_BASE}ff6cadc0[`ff6cadc0`]).
 * Handling empty strings (resource-translations) ({SERVER_COMMIT_BASE}4b264798[`4b264798`], {WEBAPP_COMPOSE_COMMIT_BASE}043588f1[`043588f1`]).
 * Fixed external OIDC for corteza flow ({SERVER_COMMIT_BASE}398242b[`398242b`]).
-
+* Fixed percentage calculation for all types of charts ({WEBAPP_JS_COMMIT_BASE}2b7c949[`2b7c949`]).
+* Fix FieldsPicker props ({WEBAPP_VUE_COMMIT_BASE}fa80ade[`fa80ade`], {WEBAPP_COMPOSE_COMMIT_BASE}485187e[`485187e`]).
 //
 //
 
