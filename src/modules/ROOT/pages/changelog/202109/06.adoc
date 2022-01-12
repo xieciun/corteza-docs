@@ -19,6 +19,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Find and has expr functions ({SERVER_COMMIT_BASE}86deaea9[`86deaea9`]).
 * Added checkbox which can hide import button separately from save button in Record list ({WEBAPP_COMPOSE_COMMIT_BASE}cd982a8[`cd982a8`], {WEBAPP_JS_COMMIT_BASE}9c85d0b[`9c85d0b`], {LOCALE_COMMIT_BASE}874e0b2[`874e0b2`]).
 * Support for SAML HTTP binding ({SERVER_COMMIT_BASE}717cae5c0b[`717cae5c0b`], {WEBAPP_ADMIN_COMMIT_BASE}5cf0597b40[`5cf0597b40`])
+* Support version in DB_DSN for development mode ({SERVER_COMMIT_BASE}c3516dd[`c3516dd`]).
+* Sort an array expr function ({SERVER_COMMIT_BASE}be6b572[`be6b572`]).
 //
 //
 
@@ -35,6 +37,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fixed translations on password reset ({SERVER_COMMIT_BASE}87f08d8[`87f08d8`]).
 * RBAC rules & workflows are now reloaded after namespace import ({SERVER_COMMIT_BASE}ff6cadc0[`ff6cadc0`]).
 * Handling empty strings (resource-translations) ({SERVER_COMMIT_BASE}4b264798[`4b264798`], {WEBAPP_COMPOSE_COMMIT_BASE}043588f1[`043588f1`]).
+* Fixed external OIDC for corteza flow ({SERVER_COMMIT_BASE}398242b[`398242b`]).
 
 //
 //
