@@ -41,8 +41,9 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fixed external OIDC for corteza flow ({SERVER_COMMIT_BASE}398242b[`398242b`]).
 * Fixed percentage calculation for all types of charts ({WEBAPP_JS_COMMIT_BASE}2b7c949[`2b7c949`]).
 * Fix FieldsPicker props ({WEBAPP_VUE_COMMIT_BASE}fa80ade[`fa80ade`], {WEBAPP_COMPOSE_COMMIT_BASE}485187e[`485187e`]).
-* Fix namespace importing -- additional request validation ({SERVER_COMMIT_BASE}ca178714b[`ca178714b`]), improve internal resource identification ({SERVER_COMMIT_BASE}00dd86fb9[`00dd86fb9`], {SERVER_COMMIT_BASE}d247ec678[`d247ec678`], and {SERVER_COMMIT_BASE}8be8be96d[`8be8be96d`]).
-* Fix improper API request content parsing when `Content-Type` defines character set ({SERVER_COMMIT_BASE}d0154cc1b[`d0154cc1b`]).
+* Fixed namespace importing -- additional request validation ({SERVER_COMMIT_BASE}ca178714b[`ca178714b`]), improve internal resource identification ({SERVER_COMMIT_BASE}00dd86fb9[`00dd86fb9`], {SERVER_COMMIT_BASE}d247ec678[`d247ec678`], and {SERVER_COMMIT_BASE}8be8be96d[`8be8be96d`]).
+* Fixed improper API request content parsing when `Content-Type` defines character set ({SERVER_COMMIT_BASE}d0154cc1b[`d0154cc1b`]).
+* Fixed improper error handling for the upload component ({WEBAPP_COMPOSE_COMMIT_BASE}a0a1ac0[`a0a1ac0`]).
 
 //
 //
