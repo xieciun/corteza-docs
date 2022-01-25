@@ -44,6 +44,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fixed namespace importing -- additional request validation ({SERVER_COMMIT_BASE}ca178714b[`ca178714b`]), improve internal resource identification ({SERVER_COMMIT_BASE}00dd86fb9[`00dd86fb9`], {SERVER_COMMIT_BASE}d247ec678[`d247ec678`], and {SERVER_COMMIT_BASE}8be8be96d[`8be8be96d`]).
 * Fixed improper API request content parsing when `Content-Type` defines character set ({SERVER_COMMIT_BASE}d0154cc1b[`d0154cc1b`]).
 * Fixed improper error handling for the upload component ({WEBAPP_COMPOSE_COMMIT_BASE}a0a1ac0[`a0a1ac0`]).
+* Fix role-security setting for external providers ({WEBAPP_COMPOSE_COMMIT_BASE}05a40ca[`05a40ca`]).
+* Fix issue with removal of OIDC provider ({WEBAPP_COMPOSE_COMMIT_BASE}c078808[`c078808`]).
 
 //
 //
