@@ -22,6 +22,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Support version in DB_DSN for development mode ({SERVER_COMMIT_BASE}c3516dd[`c3516dd`]).
 * Sort an array expr function ({SERVER_COMMIT_BASE}be6b572[`be6b572`]).
 * Persist column order after save in ColumnPicker ({WEBAPP_COMPOSE_COMMIT_BASE}9659d9f[`9659d9f`], {WEBAPP_JS_COMMIT_BASE}2b7c949[`2b7c949`], {LOCALE_COMMIT_BASE}b53bc6b[`b53bc6b`]).
+
 //
 //
 
@@ -46,7 +47,7 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fixed improper error handling for the upload component ({WEBAPP_COMPOSE_COMMIT_BASE}a0a1ac0[`a0a1ac0`]).
 * Fix role-security setting for external providers ({WEBAPP_COMPOSE_COMMIT_BASE}05a40ca[`05a40ca`]).
 * Fix issue with removal of OIDC provider ({WEBAPP_COMPOSE_COMMIT_BASE}c078808[`c078808`]).
-
+* Fix queue name matching on workflow onMessage event ({SERVER_COMMIT_BASE}79d8a842[`79d8a842`])
 //
 //
 
