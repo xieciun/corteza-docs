@@ -22,6 +22,8 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Support version in DB_DSN for development mode ({SERVER_COMMIT_BASE}c3516dd[`c3516dd`]).
 * Sort an array expr function ({SERVER_COMMIT_BASE}be6b572[`be6b572`]).
 * Persist column order after save in ColumnPicker ({WEBAPP_COMPOSE_COMMIT_BASE}9659d9f[`9659d9f`], {WEBAPP_JS_COMMIT_BASE}2b7c949[`2b7c949`], {LOCALE_COMMIT_BASE}b53bc6b[`b53bc6b`]).
+* Record list filter multi value support ({WEBAPP_COMPOSE_COMMIT_BASE}d0213cb[`d0213cb`])
+* RTL support
 
 //
 //
@@ -48,10 +50,24 @@ Peter Grlica (https://github.com/petergrlica[GH]).
 * Fix role-security setting for external providers ({WEBAPP_COMPOSE_COMMIT_BASE}05a40ca[`05a40ca`]).
 * Fix issue with removal of OIDC provider ({WEBAPP_COMPOSE_COMMIT_BASE}c078808[`c078808`]).
 * Fix queue name matching on workflow onMessage event ({SERVER_COMMIT_BASE}79d8a842[`79d8a842`])
+* Fixed calendar not showing events that span multiple months properly ({WEBAPP_JS_COMMIT_BASE}4d2f824[`4d2f824`])
+* Fixed record list filter for number and id fields ({WEBAPP_COMPOSE_COMMIT_BASE}3b421a1[`3b421a1`])
+* Fixed namespace selector overflowing sidebar ({WEBAPP_COMPOSE_COMMIT_BASE}b9aa41e[`b9aa41e`])
+* Fix metric page block field selector options ({WEBAPP_COMPOSE_COMMIT_BASE}cb69c80[`cb69c80`])
+* Fix chart canvas not existing ({WEBAPP_COMPOSE_COMMIT_BASE}1b965f8[`1b965f8`])
+* Record list empty text not centered ({WEBAPP_COMPOSE_COMMIT_BASE}f467e0f[`f467e0f`])
+* Inline record editor delete not checking permissions ({WEBAPP_COMPOSE_COMMIT_BASE}f74d398[`f74d398`])
+* Show processing when deleting records in record list ({WEBAPP_COMPOSE_COMMIT_BASE}6d47c1b[`6d47c1b`])
+* Fix reminders not displaying properly ({WEBAPP_COMPOSE_COMMIT_BASE}94247f0[`94247f0`])
+* Fix members fetching for closed roles ({WEBAPP_ADMIN_COMMIT_BASE}88955eb[`88955eb`])
+
 //
 //
 
-//.[#2021_9_6-changed]#<<2021_9_6-changed,Changed:>>#
+.[#2021_9_6-changed]#<<2021_9_6-changed,Changed:>>#
+* Make default value not required for multi fields ({WEBAPP_COMPOSE_COMMIT_BASE}aae3f6f[`aae3f6f`])
+* Prefill inline record editor related values ({WEBAPP_COMPOSE_COMMIT_BASE}c457679[`c457679`])
+* Disable page deletion if it has sub-pages ({WEBAPP_COMPOSE_COMMIT_BASE}67c3b2c[`67c3b2c`])
 //* placeholder-placeholder-placeholder ({SERVER_COMMIT_BASE}xxxxxxx[`xxxxxxx`]).
 
 //
