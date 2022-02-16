@@ -1,0 +1,27 @@
+include::ROOT:partial$variables.adoc[]
+
+:PATCH_V: 2021_9_8
+
+= `2021.9.8`
+
+*Released on*: `YYYY-MM-DD`
+
+.[#{PATCH_V}-added]#<<{PATCH_V}-added,Added:>>#
+// Use list for *new features*
+
+.[#{PATCH_V}-changed]#<<{PATCH_V}-changed,Changed:>>#
+// Use list for *additions to the existing features*
+
+.[#{PATCH_V}-deprecated]#<<{PATCH_V}-deprecated,Deprecated:>>#
+// Use list for *things that should not be used but are still there*
+
+.[#{PATCH_V}-removed]#<<{PATCH_V}-removed,Removed:>>#
+// Use list for *removed things*
+
+.[#{PATCH_V}-fixed]#<<{PATCH_V}-fixed,Fixed:>>#
+// Use list for *fixes to existing features*
+// If the modification changes the original flow of the feature, mention it under changes as well
+. Fixed `count` expression function to properly handle the no argument case when typed values are being used (usually when invoked via workflow expressions) ({SERVER_COMMIT_BASE}5d7d3aa3[`5d7d3aa3`])
+
+.[#{PATCH_V}-security]#<<{PATCH_V}-security,Security:>>#
+// Use list for *security related changes*
