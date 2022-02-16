@@ -21,7 +21,8 @@ include::ROOT:partial$variables.adoc[]
 .[#{PATCH_V}-fixed]#<<{PATCH_V}-fixed,Fixed:>>#
 // Use list for *fixes to existing features*
 // If the modification changes the original flow of the feature, mention it under changes as well
-. Fixed `count` expression function to properly handle the no argument case when typed values are being used (usually when invoked via workflow expressions) ({SERVER_COMMIT_BASE}5d7d3aa3[`5d7d3aa3`])
+. Fixed `count` expression function to properly handle the no argument case when typed values are being used (usually when invoked via workflow expressions) ({SERVER_COMMIT_BASE}5d7d3aa3[`5d7d3aa3`]).
+. Fixed improper page blockID assignment on page create ({SERVER_COMMIT_BASE}95065f8e7[`95065f8e7`]).
 
 .[#{PATCH_V}-security]#<<{PATCH_V}-security,Security:>>#
 // Use list for *security related changes*
