@@ -21,10 +21,13 @@
 // *** xref:online-deployment/single-mysql.adoc[]
 // *** xref:online-deployment/single-pgsql.adoc[]
 
+** xref:troubleshooting/index.adoc[]
+*** xref:troubleshooting/web-console.adoc[]
+*** xref:troubleshooting/common-issues.adoc[]
+
 ** Maintenance
 *** xref:maintenance/access-control.adoc[]
 *** xref:maintenance/i18n.adoc[]
-*** xref:maintenance/cli-reference.adoc[]
 *** xref:maintenance/backups.adoc[]
 *** xref:maintenance/health-check.adoc[]
 *** xref:maintenance/troubleshooting.adoc[]
@@ -36,6 +39,6 @@
 *** xref:extension-requirements/sink-route.adoc[]
 *** xref:extension-requirements/pdf-renderer.adoc[]
 
-** CLI
+** xref:cli/index.adoc[]
 *** xref:cli/record-import.adoc[]
 *** xref:cli/resource-translation-import.adoc[]
