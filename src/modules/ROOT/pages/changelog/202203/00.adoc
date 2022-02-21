@@ -2,10 +2,13 @@ include::ROOT:partial$variables.adoc[]
 
 = `2022.3.0`
 
-*Released on*: 2022-10-11
+*Released on*: TBD
+
+*Contributors*:
+Peter Grlica (https://github.com/petergrlica[GH]).
 
 .[#2022_3_0-added]#<<2022_3_0-added,Added:>>#
-// ...
+* Added BufferedReader support for Integration Gateway requests ({SERVER_COMMIT_BASE}87d3b68d[`87d3b68d`]).
 
 //
 //
@@ -23,7 +26,7 @@ include::ROOT:partial$variables.adoc[]
 //
 
 .[#2022_3_0-fixed]#<<2022_3_0-fixed,Fixed:>>#
-// ...
+* Body read in workflow Integration Gateway prefilter ({SERVER_COMMIT_BASE}87d3b68d[`87d3b68d`]).
 
 //
 //
