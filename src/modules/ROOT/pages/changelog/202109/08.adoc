@@ -29,3 +29,4 @@ include::ROOT:partial$variables.adoc[]
 .[#{PATCH_V}-security]#<<{PATCH_V}-security,Security:>>#
 // Use list for *security related changes*
 . Strengthen reset-password flow with rate limiting and invalidation of existing tokens({WEBAPP_WORKFLOW_COMMIT_BASE}d2d0245d5[`d2d0245d5`]).
+. Improve attachment validation on size and type for compose uploads ({SERVER_COMMIT_BASE}6f19f00b2[`6f19f00b2`]).
