@@ -27,6 +27,10 @@ include::ROOT:partial$variables.adoc[]
 . Fixed role management on external auth providers ({WEBAPP_COMPOSE_COMMIT_BASE}[d679a59[`d679a59`]).
 . Append custom args when executing corredor scripts via Compose REST handlers ({SERVER_COMMIT_BASE}[2741e3577[`2741e3577`]).
 . Better handling of unresolved (type any) values ({SERVER_COMMIT_BASE}[5ff68c414[`5ff68c414`]).
+. Change default background colour to white in MetricConfigurator ({WEBAPP_COMPOSE_COMMIT_BASE}[49a525a[`49a525a`]).
+. Hide refresh data button when no data is present in MetricConfigurator ({WEBAPP_COMPOSE_COMMIT_BASE}[8fc446c[`8fc446c`]).
+. Increase z-index for PageBuilder to avoid toolbar with icons appearing below the Block's title and description {WEBAPP_COMPOSE_COMMIT_BASE}[667a9b0[`667a9b0`]).
+. Translate messages in errors component ({WEBAPP_COMPOSE_COMMIT_BASE}[acd5473[`acd5473`], {WEBAPP_JS_COMMIT_BASE}1e933b2[`1e933b2`], {LOCALE_COMMIT_BASE}0af18b1[`0af18b1`]).
 
 .[#{PATCH_V}-security]#<<{PATCH_V}-security,Security:>>#
 // Use list for *security related changes*
