@@ -34,7 +34,8 @@ include::ROOT:partial$variables.adoc[]
 . Reminders of other people showing up ({WEBAPP_COMPOSE_COMMIT_BASE}[63b3efe[`63b3efe`]).
 . Translations of field configurators and calendars ({WEBAPP_COMPOSE_COMMIT_BASE}[d4a379e[`d4a379e`], [5f00980[`5f00980`]).
 . Relative values with charts ({WEBAPP_JS_COMMIT_BASE}eb5c4c7[`eb5c4c7`], [025cfd5[`025cfd5`]).
-
+. Fix number of record to be exported in ExporterModal ({WEBAPP_COMPOSE_COMMIT_BASE}eb5c4c7[`eb5c4c7`], [5f36917[`5f36917`]).
+. Add missing input string to apigw namespace for admin ({LOCALE_COMMIT_BASE}eb5c4c7[`eb5c4c7`], [64d27e1[`64d27e1`]).
 
 
 .[#{PATCH_V}-security]#<<{PATCH_V}-security,Security:>>#
